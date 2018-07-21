@@ -109,14 +109,3 @@ printBoard (x:xs) = do print row
 -- debugging
 printRow :: Row -> IO()
 printRow r = printBoard [r]
-
-
-
-
-
-
-
-
-      
-
-

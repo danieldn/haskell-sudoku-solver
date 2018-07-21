@@ -2,7 +2,7 @@
 
 ## Overview
 
-This solver implements the backtracking algorithm to solving a 9x9 sudoku puzzle.
+This solver implements the backtracking algorithm to solve a 9x9 sudoku puzzle.
 
 Example psuedo code for backtracking from
 https://codemyroad.wordpress.com/2014/05/01/solving-sudoku-by-backtracking/
@@ -40,7 +40,7 @@ containing one sudoku puzzle.
 
 Example:
 ```
-ghc -O solver.hs
+ghc -o solver Solver.hs
 ./solver puzzle1.txt puzzle2.txt puzzle3.txt
 ```
 

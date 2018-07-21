@@ -220,6 +220,3 @@ prevEmptyCellHelp b r c
 isGiven :: Cell -> Bool
 isGiven (Given a) = True
 isGiven _ = False
-
-
-
